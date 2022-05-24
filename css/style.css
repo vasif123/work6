@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    padding: 0 4rem;
+}
+
+header{
+    padding: 20px 0;
+    width: 100%;
+    z-index: 1111111111111111111111;
+}
+
+.header-all {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-all .left{
+    width: 15%;
+}
+
+.header-all .right{
+    width: 75%;
+    text-align: right;
+}
+
+.header-all .left img{
+    width: 100%;
+}
+
+.header-all .right a{
+    color: black;
+    font-size: 1rem;
+    margin-left: 30px;
+}
+#First{
+    background-image: url(https://getmasum.com/html-preview/nour/assets/img/slider/1.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 12rem 0;
+   
+}
+
+#First h1{
+    font-size: 60px;
+    background-clip: text;
+    color: #fff;
+    margin-bottom: 4rem;
+    
+}
+
+#First p{
+    color: #fff;
+    font-size: 24px;
+    
+}
+
+#First a{
+    border: 2px solid #6168ff;
+    background-color: #6168ff;
+    padding: 25px 55px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 30px;
+    text-transform: uppercase;
+    transition: .4s;
+}
+
+#First a:hover{
+    background-color: transparent;
+    
+}
+
+#About{
+    padding: 5rem 0;
+    background-color: #f6f6f6;
+}
+
+.about-all{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.about-all .box{
+    width: 48%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.about-all .box img{
+    width: 100%;
+    transition: .5s;
+    border-radius: 7px;
+    margin-bottom: 100px;
+}
+#About i{
+    color: #6168FF;
+    font-size: 60px;
+    transition: .5s;
+}
+
+.icons{
+    background-color: #f6f6f6;
+    border-radius: 8px;
+    width: 50%;
+    margin-bottom: 30px;
+    padding: 20px;
+    transition: .5s;
+}
+
+#About h4{
+    margin: 10px 0;
+    color: #1f1f25;
+    font-size: 20px;
+    transition: .5s;
+}
+
+#About p{
+    color: #757575;
+    transition: .5s;
+}
+
+#Second{
+    background-color: rgb(242, 246, 252);
+    padding: 6rem 4rem;
+    overflow: auto;
+}
+
+#Second .all .box1{
+    width: 30%;
+    margin: 20px 15px;
+    transition: .4s;
+    cursor: pointer;
+    border-radius: 7px;
+    float: left;
+}
+
+#Second .all .box1 img{
+    width: 100%;
+    border-radius: 7px 7px 0 0;
+    vertical-align: bottom;
+}
+
+#Second .all .box1 .bottom{
+    
+    background: #fff;
+    padding: 12px 14px;
+    border-radius: 0 0 7px 7px;
+}
+
+.second-text{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.second-text h1{
+    color: #0061f2;
+    font-size: 27px;
+    margin-bottom: 10px;
+}
+
+.second-text p{
+    color: #69707a;
+    font-size: 16px;
+}
+
+#Third{
+    
+    padding: 6rem 4rem;
+    overflow: auto;
+}
+
+#Third i{
+    color: #6168FF;
+    font-size:  60px;
+    transition: .5s;
+}
+
+#Third h4{
+    margin: 10px 0;
+    color: #1f1f25;
+    font-size: 20px;
+    transition: .5s;
+}
+
+#Third p{
+    color: #757575;
+    transition: .5s;
+    margin-top: 20px 0;
+}
+#Third .box-all{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#Third .box-all .box2{
+    background-color: #f6f6f6;
+    border-radius: 8px;
+    width: 30%;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    padding: 20px 20px;
+    transition: .5s;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+#Third .box-all .box2 .right{
+    margin: 0px 30px;
+}
